@@ -1,0 +1,329 @@
+{
+  "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+  "id": "{{issue_id}}",
+  "self": "https://gsadanalamss-1761635878694.atlassian.net/rest/api/3/issue/10000",
+  "key": "SCRUM-1",
+  "fields": {
+    "statuscategorychangedate": "2026-01-06T22:51:02.900+0530",
+    "issuetype": {
+      "self": "https://gsadanalamss-1761635878694.atlassian.net/rest/api/3/issuetype/10006",
+      "id": "10006",
+      "description": "Bugs track problems or errors.",
+      "iconUrl": "https://gsadanalamss-1761635878694.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+      "name": "Bug",
+      "subtask": false,
+      "avatarId": 10303,
+      "entityId": "7583a8e9-2d65-44ea-99e3-0b169efc2848",
+      "hierarchyLevel": 0
+    },
+    "timespent": null,
+    "project": {
+      "self": "https://gsadanalamss-1761635878694.atlassian.net/rest/api/3/project/10000",
+      "id": "10000",
+      "key": "SCRUM",
+      "name": "My Scrum Project",
+      "projectTypeKey": "software",
+      "simplified": true,
+      "avatarUrls": {
+        "48x48": "https://gsadanalamss-1761635878694.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419",
+        "24x24": "https://gsadanalamss-1761635878694.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419?size=small",
+        "16x16": "https://gsadanalamss-1761635878694.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419?size=xsmall",
+        "32x32": "https://gsadanalamss-1761635878694.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419?size=medium"
+      }
+    },
+    "fixVersions": [],
+    "aggregatetimespent": null,
+    "statusCategory": {
+      "self": "https://gsadanalamss-1761635878694.atlassian.net/rest/api/3/statuscategory/3",
+      "id": 3,
+      "key": "done",
+      "colorName": "green",
+      "name": "Done"
+    },
+    "resolution": {
+      "self": "https://gsadanalamss-1761635878694.atlassian.net/rest/api/3/resolution/10000",
+      "id": "10000",
+      "description": "Work has been completed on this work item.",
+      "name": "Done"
+    },
+    "customfield_10037": null,
+    "resolutiondate": "2026-01-06T22:51:02.874+0530",
+    "workratio": -1,
+    "issuerestriction": {
+      "issuerestrictions": {
+
+      },
+      "shouldDisplay": true
+    },
+    "watches": {
+      "self": "https://gsadanalamss-1761635878694.atlassian.net/rest/api/3/issue/SCRUM-1/watchers",
+      "watchCount": 1,
+      "isWatching": true
+    },
+    "lastViewed": "2026-01-06T20:55:57.476+0530",
+    "created": "2025-10-28T14:11:14.760+0530",
+    "customfield_10020": null,
+    "customfield_10021": null,
+    "priority": {
+      "self": "https://gsadanalamss-1761635878694.atlassian.net/rest/api/3/priority/3",
+      "iconUrl": "https://gsadanalamss-1761635878694.atlassian.net/images/icons/priorities/medium_new.svg",
+      "name": "Medium",
+      "id": "3"
+    },
+    "labels": [],
+    "customfield_10016": null,
+    "customfield_10017": null,
+    "customfield_10019": "0|hzzzzz:",
+    "timeestimate": null,
+    "aggregatetimeoriginalestimate": null,
+    "versions": [],
+    "issuelinks": [],
+    "assignee": null,
+    "updated": "2026-01-06T22:51:02.899+0530",
+    "status": {
+      "self": "https://gsadanalamss-1761635878694.atlassian.net/rest/api/3/status/10002",
+      "description": "",
+      "iconUrl": "https://gsadanalamss-1761635878694.atlassian.net/images/icons/statuses/generic.png",
+      "name": "Done",
+      "id": "10002",
+      "statusCategory": {
+        "self": "https://gsadanalamss-1761635878694.atlassian.net/rest/api/3/statuscategory/3",
+        "id": 3,
+        "key": "done",
+        "colorName": "green",
+        "name": "Done"
+      }
+    },
+    "components": [],
+    "timeoriginalestimate": null,
+    "description": {
+      "type": "doc",
+      "version": 1,
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "{{description}}"
+            }
+          ]
+        }
+      ]
+    },
+    "timetracking": {
+
+    },
+    "customfield_10015": null,
+    "security": null,
+    "attachment": [
+      {
+        "self": "https://gsadanalamss-1761635878694.atlassian.net/rest/api/3/attachment/10000",
+        "id": "10000",
+        "filename": "Test",
+        "author": {
+          "self": "https://gsadanalamss-1761635878694.atlassian.net/rest/api/3/user?accountId=712020%3A61f77482-35d1-45ec-a286-27aa08bcf7c0",
+          "accountId": "712020:61f77482-35d1-45ec-a286-27aa08bcf7c0",
+          "emailAddress": "gsadanalamss@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/0ff819657f0c4b076bc2029cf32e4627?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-3.png",
+            "24x24": "https://secure.gravatar.com/avatar/0ff819657f0c4b076bc2029cf32e4627?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-3.png",
+            "16x16": "https://secure.gravatar.com/avatar/0ff819657f0c4b076bc2029cf32e4627?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-3.png",
+            "32x32": "https://secure.gravatar.com/avatar/0ff819657f0c4b076bc2029cf32e4627?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-3.png"
+          },
+          "displayName": "Srinivas Govind Sadanala",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "created": "2025-10-28T14:58:16.387+0530",
+        "size": 215,
+        "mimeType": "text/plain; charset=UTF-8",
+        "content": "https://gsadanalamss-1761635878694.atlassian.net/rest/api/3/attachment/content/10000"
+      }
+    ],
+    "aggregatetimeestimate": null,
+    "summary": "{{summary}}",
+    "creator": {
+      "self": "https://gsadanalamss-1761635878694.atlassian.net/rest/api/3/user?accountId=712020%3A61f77482-35d1-45ec-a286-27aa08bcf7c0",
+      "accountId": "712020:61f77482-35d1-45ec-a286-27aa08bcf7c0",
+      "emailAddress": "gsadanalamss@gmail.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/0ff819657f0c4b076bc2029cf32e4627?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-3.png",
+        "24x24": "https://secure.gravatar.com/avatar/0ff819657f0c4b076bc2029cf32e4627?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-3.png",
+        "16x16": "https://secure.gravatar.com/avatar/0ff819657f0c4b076bc2029cf32e4627?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-3.png",
+        "32x32": "https://secure.gravatar.com/avatar/0ff819657f0c4b076bc2029cf32e4627?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-3.png"
+      },
+      "displayName": "Srinivas Govind Sadanala",
+      "active": true,
+      "timeZone": "Asia/Calcutta",
+      "accountType": "atlassian"
+    },
+    "subtasks": [],
+    "reporter": {
+      "self": "https://gsadanalamss-1761635878694.atlassian.net/rest/api/3/user?accountId=712020%3A61f77482-35d1-45ec-a286-27aa08bcf7c0",
+      "accountId": "712020:61f77482-35d1-45ec-a286-27aa08bcf7c0",
+      "emailAddress": "gsadanalamss@gmail.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/0ff819657f0c4b076bc2029cf32e4627?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-3.png",
+        "24x24": "https://secure.gravatar.com/avatar/0ff819657f0c4b076bc2029cf32e4627?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-3.png",
+        "16x16": "https://secure.gravatar.com/avatar/0ff819657f0c4b076bc2029cf32e4627?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-3.png",
+        "32x32": "https://secure.gravatar.com/avatar/0ff819657f0c4b076bc2029cf32e4627?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-3.png"
+      },
+      "displayName": "Srinivas Govind Sadanala",
+      "active": true,
+      "timeZone": "Asia/Calcutta",
+      "accountType": "atlassian"
+    },
+    "aggregateprogress": {
+      "progress": 0,
+      "total": 0
+    },
+    "customfield_10001": null,
+    "customfield_10038": {
+      "type": "doc",
+      "version": 1,
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "The solution is to solve it your self"
+            }
+          ]
+        }
+      ]
+    },
+    "customfield_10039": "Neutral",
+    "environment": null,
+    "duedate": null,
+    "progress": {
+      "progress": 0,
+      "total": 0
+    },
+    "votes": {
+      "self": "https://gsadanalamss-1761635878694.atlassian.net/rest/api/3/issue/SCRUM-1/votes",
+      "votes": 0,
+      "hasVoted": false
+    },
+    "comment": {
+      "comments": [
+        {
+          "self": "https://gsadanalamss-1761635878694.atlassian.net/rest/api/3/issue/10000/comment/10000",
+          "id": "10000",
+          "author": {
+            "self": "https://gsadanalamss-1761635878694.atlassian.net/rest/api/3/user?accountId=712020%3A61f77482-35d1-45ec-a286-27aa08bcf7c0",
+            "accountId": "712020:61f77482-35d1-45ec-a286-27aa08bcf7c0",
+            "emailAddress": "gsadanalamss@gmail.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/0ff819657f0c4b076bc2029cf32e4627?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-3.png",
+              "24x24": "https://secure.gravatar.com/avatar/0ff819657f0c4b076bc2029cf32e4627?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-3.png",
+              "16x16": "https://secure.gravatar.com/avatar/0ff819657f0c4b076bc2029cf32e4627?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-3.png",
+              "32x32": "https://secure.gravatar.com/avatar/0ff819657f0c4b076bc2029cf32e4627?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-3.png"
+            },
+            "displayName": "Srinivas Govind Sadanala",
+            "active": true,
+            "timeZone": "Asia/Calcutta",
+            "accountType": "atlassian"
+          },
+          "body": {
+            "type": "doc",
+            "version": 1,
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Restart the system and try again"
+                  }
+                ]
+              }
+            ]
+          },
+          "updateAuthor": {
+            "self": "https://gsadanalamss-1761635878694.atlassian.net/rest/api/3/user?accountId=712020%3A61f77482-35d1-45ec-a286-27aa08bcf7c0",
+            "accountId": "712020:61f77482-35d1-45ec-a286-27aa08bcf7c0",
+            "emailAddress": "gsadanalamss@gmail.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/0ff819657f0c4b076bc2029cf32e4627?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-3.png",
+              "24x24": "https://secure.gravatar.com/avatar/0ff819657f0c4b076bc2029cf32e4627?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-3.png",
+              "16x16": "https://secure.gravatar.com/avatar/0ff819657f0c4b076bc2029cf32e4627?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-3.png",
+              "32x32": "https://secure.gravatar.com/avatar/0ff819657f0c4b076bc2029cf32e4627?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-3.png"
+            },
+            "displayName": "Srinivas Govind Sadanala",
+            "active": true,
+            "timeZone": "Asia/Calcutta",
+            "accountType": "atlassian"
+          },
+          "created": "2025-10-28T15:37:23.143+0530",
+          "updated": "2025-10-28T15:37:23.143+0530",
+          "jsdPublic": true
+        },
+        {
+          "self": "https://gsadanalamss-1761635878694.atlassian.net/rest/api/3/issue/10000/comment/10033",
+          "id": "10033",
+          "author": {
+            "self": "https://gsadanalamss-1761635878694.atlassian.net/rest/api/3/user?accountId=712020%3A61f77482-35d1-45ec-a286-27aa08bcf7c0",
+            "accountId": "712020:61f77482-35d1-45ec-a286-27aa08bcf7c0",
+            "emailAddress": "gsadanalamss@gmail.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/0ff819657f0c4b076bc2029cf32e4627?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-3.png",
+              "24x24": "https://secure.gravatar.com/avatar/0ff819657f0c4b076bc2029cf32e4627?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-3.png",
+              "16x16": "https://secure.gravatar.com/avatar/0ff819657f0c4b076bc2029cf32e4627?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-3.png",
+              "32x32": "https://secure.gravatar.com/avatar/0ff819657f0c4b076bc2029cf32e4627?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-3.png"
+            },
+            "displayName": "Srinivas Govind Sadanala",
+            "active": true,
+            "timeZone": "Asia/Calcutta",
+            "accountType": "atlassian"
+          },
+          "body": {
+            "type": "doc",
+            "version": 1,
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Ok i will try"
+                  }
+                ]
+              }
+            ]
+          },
+          "updateAuthor": {
+            "self": "https://gsadanalamss-1761635878694.atlassian.net/rest/api/3/user?accountId=712020%3A61f77482-35d1-45ec-a286-27aa08bcf7c0",
+            "accountId": "712020:61f77482-35d1-45ec-a286-27aa08bcf7c0",
+            "emailAddress": "gsadanalamss@gmail.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/0ff819657f0c4b076bc2029cf32e4627?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-3.png",
+              "24x24": "https://secure.gravatar.com/avatar/0ff819657f0c4b076bc2029cf32e4627?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-3.png",
+              "16x16": "https://secure.gravatar.com/avatar/0ff819657f0c4b076bc2029cf32e4627?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-3.png",
+              "32x32": "https://secure.gravatar.com/avatar/0ff819657f0c4b076bc2029cf32e4627?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-3.png"
+            },
+            "displayName": "Srinivas Govind Sadanala",
+            "active": true,
+            "timeZone": "Asia/Calcutta",
+            "accountType": "atlassian"
+          },
+          "created": "2025-10-29T17:33:38.360+0530",
+          "updated": "2025-10-29T17:33:38.360+0530",
+          "jsdPublic": true
+        }
+      ],
+      "self": "https://gsadanalamss-1761635878694.atlassian.net/rest/api/3/issue/10000/comment",
+      "maxResults": 2,
+      "total": 2,
+      "startAt": 0
+    },
+    "worklog": {
+      "startAt": 0,
+      "maxResults": 20,
+      "total": 0,
+      "worklogs": []
+    }
+  }
+}

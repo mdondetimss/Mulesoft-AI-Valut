@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:ms-aichain="http://www.mulesoft.org/schema/mule/ms-aichain" xmlns:jira="http://www.mulesoft.org/schema/mule/jira"
+	xmlns="http://www.mulesoft.org/schema/mule/core"
+	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/jira http://www.mulesoft.org/schema/mule/jira/current/mule-jira.xsd
+http://www.mulesoft.org/schema/mule/ms-aichain http://www.mulesoft.org/schema/mule/ms-aichain/current/mule-ms-aichain.xsd">
+	<sub-flow name="get-jira-comments-sub-flow" doc:id="c15cd7d7-95e7-46b5-bd6b-bd136787c473" >
+		<logger level="DEBUG" doc:name="Start Logger" doc:id="628c435e-ebdb-4fc0-be31-a307a7c17e65" message='#[%dw 2.0&#10;output application/json&#10;---&#10;{&#10;	"Message": "Started acquiring the comments from Jira REST API."&#10;}]'/>
+		<jira:get-rest-api3-issue-comment-by-issue-id-or-key doc:name="Get Comments" doc:id="7234dc2d-9a1f-422a-aacb-9230a03af6fb" config-ref="Jira_Connector_Config" issueIdOrKey="#[vars.key]" />
+		<logger level="DEBUG" doc:name="End Logger" doc:id="939a2453-7259-404e-a207-252aaff46977" message='#[%dw 2.0&#10;output application/json&#10;---&#10;{&#10;	"Message": "After Getting comments from Jira",&#10;	"Comments" : payload&#10;}]'/>
+	</sub-flow>
+	<sub-flow name="update-jira-issue-sub-flow" doc:id="819eead8-ad9d-4f23-9b12-7a4d2d1dbd3c" >
+		<logger level="DEBUG" doc:name="Start Logger" doc:id="6e772452-c9a3-47eb-b30b-f9e149d87cf2" message='#[%dw 2.0&#10;output application/json&#10;---&#10;{&#10;	"Message": "Starting updating the issue in Jira"&#10;}]' />
+		<jira:update-rest-api3-issue-by-issue-id-or-key doc:name="Edit Issue" doc:id="0b35c588-71a1-4c50-b4a9-95768c15d8f9" config-ref="Jira_Connector_Config" issueIdOrKey="#[vars.key]" />
+		<logger level="DEBUG" doc:name="End Logger" doc:id="583379de-6cfb-43e1-9beb-e472a69bbc53" message='#[%dw 2.0&#10;output application/json&#10;---&#10;{&#10;	"Message": "Successfully updated the issue in Jira"&#10;}]' />
+	</sub-flow>
+</mule>

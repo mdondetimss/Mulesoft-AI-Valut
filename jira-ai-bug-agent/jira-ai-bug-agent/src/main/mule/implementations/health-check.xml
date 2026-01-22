@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:http="http://www.mulesoft.org/schema/mule/http"
+	xmlns:custom-logger="http://www.mulesoft.org/schema/mule/custom-logger" xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core"
+	xmlns="http://www.mulesoft.org/schema/mule/core"
+	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd
+http://www.mulesoft.org/schema/mule/custom-logger http://www.mulesoft.org/schema/mule/custom-logger/current/mule-custom-logger.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd">
+	<flow name="get:\health-check:jira-ai-bug-agent-config">
+        <http:listener doc:name="Listener" doc:id="61730bc6-dd23-4088-8cb4-c8a2d5c9aba1" config-ref="jira-ai-bug-agent-ListenerConfig" path="health-check"/>
+		<ee:transform doc:name="Set Response" doc:id="4acc77ec-c956-44fd-a665-0878f3e1b96f" >
+			<ee:message >
+				<ee:set-payload ><![CDATA[%dw 2.0
+output application/json
+---
+{
+	message: app.name ++ " is alive and kicking."
+}]]></ee:set-payload>
+			</ee:message>
+		</ee:transform>
+    
+</flow>
+	</mule>
